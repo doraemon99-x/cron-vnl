@@ -12,4 +12,4 @@ WORKDIR /app
 COPY . .
 
 # Jalankan script
-CMD ["python", "cronjob.py"]
+CMD ["python", "vnl.py"]
