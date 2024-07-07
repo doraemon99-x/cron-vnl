@@ -1,6 +1,9 @@
 # Gunakan image Python sebagai base
 FROM python:3.9-slim
 
+# Tetapkan variabel lingkungan untuk menghilangkan pesan buffering
+ENV PYTHONUNBUFFERED=1
+
 # Tentukan direktori kerja di dalam container
 WORKDIR /app
 
@@ -14,4 +17,4 @@ RUN pip install --no-cache-dir -r requirements.txt
 COPY . .
 
 # Tentukan perintah yang akan dijalankan saat container di-start
-CMD ["python", "your_script.py"]
+CMD ["python", "vid.py"]
