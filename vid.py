@@ -24,7 +24,17 @@ def job(url):
 tasks = [
     {
         "url": "https://tipivid.000webhostapp.com/vidh/tvhip.php?id=17252",
-        "time": "13:45",
+        "time": "14:35",
+        "date": "2024-07-07"
+    },
+        {
+        "url": "https://tipivid.000webhostapp.com/vidh/tvhip.php?id=17252",
+        "time": "16:00",
+        "date": "2024-07-07"
+    },
+        {
+        "url": "https://tipivid.000webhostapp.com/vidh/tvhip.php?id=17252",
+        "time": "18:30",
         "date": "2024-07-07"
     },
     {
