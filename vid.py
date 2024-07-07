@@ -23,12 +23,12 @@ def job(url):
 # Daftar URL dan waktu eksekusi
 tasks = [
     {
-        "url": "https://tipivid.000webhostapp.com/vidh/tvhip.php?id=17533",
-        "time": "14:00",
+        "url": "https://tipivid.000webhostapp.com/vidh/tvhip.php?id=17252",
+        "time": "13:45",
         "date": "2024-07-07"
     },
     {
-        "url": "https://example.com/path/to/resource",
+        "url": "https://tipivid.000webhostapp.com/vidh/tvhip.php?id=17533",
         "time": "15:00",
         "date": "2024-07-07"
     }
