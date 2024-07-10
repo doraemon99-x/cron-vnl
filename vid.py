@@ -24,13 +24,13 @@ def job(url):
 tasks = [
     {
         "url": "https://tipivid.000webhostapp.com/vidmpd/tv.php?id=17470",
-        "time": "07:00",
-        "date": "2024-07-10"
+        "time": "06:55",
+        "date": "2024-07-11"
     },
         {
         "url": "https://tipivid.000webhostapp.com/vidmpd/tv.php?id=17470",
-        "time": "07:03",
-        "date": "2024-07-10"
+        "time": "07:33",
+        "date": "2024-07-11"
     }
     # Tambahkan tugas lainnya di sini
 ]
