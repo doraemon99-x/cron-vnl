@@ -23,19 +23,14 @@ def job(url):
 # Daftar URL dan waktu eksekusi
 tasks = [
     {
-        "url": "https://tipivid.000webhostapp.com/vidh/tvr.php?id=17252",
-        "time": "13:31",
-        "date": "2024-07-13"
+        "url": "https://tipivid.000webhostapp.com/vidmpd/tv.php?id=17470",
+        "time": "06:40",
+        "date": "2024-07-14"
     },
         {
-        "url": "https://tipivid.000webhostapp.com/vidh/tvr.php?id=17252",
-        "time": "16:00",
-        "date": "2024-07-13"
-    },
-        {
-        "url": "https://tipivid.000webhostapp.com/vidh/tvr.php?id=17252",
-        "time": "18:30",
-        "date": "2024-07-13"
+        "url": "https://tipivid.000webhostapp.com/vidmpd/tv.php?id=17470",
+        "time": "07:30",
+        "date": "2024-07-14"
     }
     # Tambahkan tugas lainnya di sini
 ]
