@@ -25,12 +25,12 @@ tasks = [
     {
         "url": "https://tipivid.000webhostapp.com/vidmpd/tv.php?id=17470",
         "time": "06:40",
-        "date": "2024-07-14"
+        "date": "2024-07-15"
     },
         {
         "url": "https://tipivid.000webhostapp.com/vidmpd/tv.php?id=17470",
         "time": "07:30",
-        "date": "2024-07-14"
+        "date": "2024-07-15"
     }
     # Tambahkan tugas lainnya di sini
 ]
