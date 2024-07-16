@@ -24,7 +24,7 @@ def job(url):
 tasks = [
     {
         "url": "https://tipivid.000webhostapp.com/vidh/tvr.php?id=204",
-        "time": "15:00",
+        "time": "14:50",
         "date": "2024-07-17"
     },
         {
