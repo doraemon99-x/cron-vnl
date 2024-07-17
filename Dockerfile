@@ -1,20 +1,23 @@
-# Gunakan image Python sebagai base
+# Gunakan image Python resmi dari Docker Hub
 FROM python:3.9-slim
 
-# Tetapkan variabel lingkungan untuk menghilangkan pesan buffering
+# Set environment variable
 ENV PYTHONUNBUFFERED=1
 
-# Tentukan direktori kerja di dalam container
+# Buat directory kerja di container
 WORKDIR /app
 
 # Salin file requirements.txt ke dalam container
-COPY requirements.txt .
+COPY requirements.txt /app/
 
-# Install dependencies
+# Install dependencies dari requirements.txt
 RUN pip install --no-cache-dir -r requirements.txt
 
-# Salin seluruh kode sumber ke dalam container
-COPY . .
+# Salin semua file dari direktori lokal ke container
+COPY . /app/
 
-# Tentukan perintah yang akan dijalankan saat container di-start
-CMD ["python", "vid.py"]
+# Expose port yang digunakan oleh Flask
+EXPOSE 5000
+
+# Perintah untuk menjalankan aplikasi
+CMD ["python", "vido.py"]
