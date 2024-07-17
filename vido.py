@@ -4,6 +4,10 @@ import pytz
 import schedule
 from flask import Flask, jsonify
 import threading
+import logging
+
+# Setup logging
+logging.basicConfig(level=logging.DEBUG)
 
 app = Flask(__name__)
 
@@ -61,9 +65,12 @@ def index():
     return jsonify({"message": "Web service is running. Scheduler is active."})
 
 if __name__ == '__main__':
-    # Jalankan scheduler dalam thread terpisah agar Flask tidak terblokir
-    scheduler_thread = threading.Thread(target=run_scheduler, daemon=True)
-    scheduler_thread.start()
+    try:
+        # Jalankan scheduler dalam thread terpisah agar Flask tidak terblokir
+        scheduler_thread = threading.Thread(target=run_scheduler, daemon=True)
+        scheduler_thread.start()
 
-    # Jalankan Flask app
-    app.run(debug=True, host='0.0.0.0', port=5000)
+        # Jalankan Flask app
+        app.run(debug=True, host='0.0.0.0', port=5000)
+    except Exception as e:
+        logging.error(f"Application failed to start: {e}")
