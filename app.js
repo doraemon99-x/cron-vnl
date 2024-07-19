@@ -14,7 +14,7 @@ const tasks = [
     },
     {
         url: "https://tipivid.000webhostapp.com/vidmpd/tv.php?id=206",
-        time: "19:00",
+        time: "19:10",
         date: "2024-07-19"
     }
     // Tambahkan tugas lainnya di sini
