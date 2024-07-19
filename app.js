@@ -9,13 +9,13 @@ const port = 5000;
 const tasks = [
     {
         url: "https://tipivid.000webhostapp.com/vidmpd/tv.php?id=204",
-        time: "14:50",
-        date: "2024-07-18"
+        time: "14:30",
+        date: "2024-07-19"
     },
     {
         url: "https://tipivid.000webhostapp.com/vidmpd/tv.php?id=206",
-        time: "19:05",
-        date: "2024-07-18"
+        time: "19:00",
+        date: "2024-07-19"
     }
     // Tambahkan tugas lainnya di sini
 ];
