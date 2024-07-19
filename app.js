@@ -8,15 +8,26 @@ const port = 5000;
 
 const tasks = [
     {
-        url: "https://tipivid.000webhostapp.com/vidmpd/tv.php?id=204",
-        time: "14:30",
-        date: "2024-07-19"
+        url: "https://tipivid.000webhostapp.com/vidh/tvr.php?id=17252",
+        time: "15:35",
+        date: "2024-07-20"
     },
     {
-        url: "https://tipivid.000webhostapp.com/vidmpd/tv.php?id=206",
-        time: "19:10",
-        date: "2024-07-19"
-    }
+        url: "https://tipivid.000webhostapp.com/vidmpd/tv.php?id=17578",
+        time: "19:03",
+        date: "2024-07-20"
+    },
+    {
+        url: "https://tipivid.000webhostapp.com/vidh/tvr.php?id=17252",
+        time: "19:35",
+        date: "2024-07-20"
+    },
+    {
+        url: "https://tipivid.000webhostapp.com/vidh/tvr.php?id=17252",
+        time: "21:35",
+        date: "2024-07-20"
+    },
+
     // Tambahkan tugas lainnya di sini
 ];
 
