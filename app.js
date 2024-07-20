@@ -8,24 +8,30 @@ const port = 5000;
 
 const tasks = [
     {
-        url: "https://tipivid.000webhostapp.com/vidh/tvr.php?id=17252",
+        url: "https://tipiku.my.id/vidmpd/tv.php?id=17579",
+        time: "14:55",
+        date: "2024-07-21"
+    },
+    {
+        url: "https://tipiku.my.id/vidh/tvr.php?id=17252",
         time: "15:35",
-        date: "2024-07-20"
+        date: "2024-07-21"
     },
     {
-        url: "https://tipivid.000webhostapp.com/vidmpd/tv.php?id=17578",
-        time: "19:03",
-        date: "2024-07-20"
+        url: "https://tipiku.my.id/vidmpd/tv.php?id=17579",
+        time: "19:30",
+        date: "2024-07-21"
+    },
+    
+    {
+        url: "https://tipiku.my.id/vidh/tvr.php?id=17252",
+        time: "19:31",
+        date: "2024-07-21"
     },
     {
-        url: "https://tipivid.000webhostapp.com/vidh/tvr.php?id=17252",
-        time: "19:35",
-        date: "2024-07-20"
-    },
-    {
-        url: "https://tipivid.000webhostapp.com/vidh/tvr.php?id=17252",
-        time: "21:35",
-        date: "2024-07-20"
+        url: "https://tipiku.my.id/vidh/tvr.php?id=17252",
+        time: "21:31",
+        date: "2024-07-21"
     },
 
     // Tambahkan tugas lainnya di sini
