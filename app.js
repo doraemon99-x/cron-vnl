@@ -8,7 +8,7 @@ const port = 5000;
 
 const tasks = [
         {
-        url: "https://tipiku.my.id/vidmpd/tv.php?id=6687",
+        url: "https://tipiku.my.id/vidmpd/tv.php?id=6685",
         time: "00:05",
         date: "2024-07-22"
     },
