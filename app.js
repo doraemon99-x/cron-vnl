@@ -9,29 +9,44 @@ const port = 5000;
 const tasks = [
     {
         url: "https://tipivid.000webhostapp.com/vidh/tvr.php?id=17334",
-        time: "09:20",
-        date: "2024-07-23"
+        time: "10:52",
+        date: "2024-07-24"
     },
         {
         url: "https://tipivid.000webhostapp.com/vidh/tvr.php?id=17334",
-        time: "11:50",
-        date: "2024-07-23"
-    },
-        {
-        url: "https://tipivid.000webhostapp.com/vidh/tvr.php?id=17334",
-        time: "14:20",
-        date: "2024-07-23"
+        time: "13:20",
+        date: "2024-07-24"
     },
     {
         url: "https://tipivid.000webhostapp.com/vidmpd/tv.php?id=17579",
-        time: "19:20",
-        date: "2024-07-23"
+        time: "15:00",
+        date: "2024-07-24"
     },
-        {
-        url: "https://tipivid.000webhostapp.com/vidmpd/tv.php?id=17578",
-        time: "19:20",
-        date: "2024-07-23"
-    }
+    {
+        url: "https://tipivid.000webhostapp.com/vidmpd/tv.php?id=17601",
+        time: "15:00",
+        date: "2024-07-24"
+    },
+    {
+        url: "https://tipivid.000webhostapp.com/vidmpd/tv.php?id=17584",
+        time: "15:30",
+        date: "2024-07-24"
+    },
+    {
+        url: "https://tipivid.000webhostapp.com/vidh/tvr.php?id=17334",
+        time: "16:20",
+        date: "2024-07-24"
+    },
+    {
+        url: "https://tipivid.000webhostapp.com/vidmpd/tv.php?id=17599",
+        time: "18:55",
+        date: "2024-07-24"
+    },
+    {
+        url: "https://tipivid.000webhostapp.com/vidmpd/tv.php?id=17585",
+        time: "19:30",
+        date: "2024-07-24"
+    },
 
     // Tambahkan tugas lainnya di sini
 ];
